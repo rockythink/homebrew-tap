@@ -17,7 +17,8 @@ jobs:
           - macos-15
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v5
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@main
       - name: Install formula from tap
         run: |
           brew tap rockythink/tap
