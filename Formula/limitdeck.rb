@@ -1,26 +1,26 @@
 class Limitdeck < Formula
   desc "Privacy-safe terminal dashboard for AI subscription limits"
   homepage "https://github.com/rockythink/limitdeck"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.1/limitdeck-aarch64-apple-darwin.tar.gz"
-      sha256 "95fa7169c3e2ab26fd5716c2a7de1aeea1079b43afecec6240dfb2cc4d993bc9"
+      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.2/limitdeck-aarch64-apple-darwin.tar.gz"
+      sha256 "59bdb1a8f94970a16e9bf5e82ab8f6a22abda18a0ac34932507a826e73752f96"
     else
-      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.1/limitdeck-x86_64-apple-darwin.tar.gz"
-      sha256 "fb512cb2c8b11389bd552535a1489d18ae6f92574bb948dd30a0c061aa1844a7"
+      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.2/limitdeck-x86_64-apple-darwin.tar.gz"
+      sha256 "14c5b96335c33567af928d33716a95ba8f2e9693e2ad434673007603cacce119"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.1/limitdeck-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "311b2e2c9e03895642064e389cec251bbaef28a40a338765a0b54a94b7a0b7cc"
+      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.2/limitdeck-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2a50b6c523a360c1f7a6c5800889ee5302ea0eca2f840c02f9de13dab98ced27"
     else
-      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.1/limitdeck-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "02f5e4b1c5d080ff6da9c0913ecad5f0c3db040eeb1c0c8198d6e95ef36b5e3c"
+      url "https://github.com/rockythink/limitdeck/releases/download/v0.1.2/limitdeck-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8b1e00815b6db1f36e87bfe2f9553019996d79ff013342564f3d997281c3f7fb"
     end
   end
 
