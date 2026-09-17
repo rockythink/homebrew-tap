@@ -1,26 +1,26 @@
 class Danmu < Formula
   desc "Live interaction console for knowledge streamers"
   homepage "https://github.com/rockythink/shisui-danmu"
-  version "0.4.5"
+  version "0.5.0"
   license "MPL-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.4.5/shisui-danmu-macos-aarch64.tar.gz"
-      sha256 "1fbf3154d02a7de8f6031eae191b1f753ff952097e938c61751f8d2cff22dfc1"
+      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.5.0/shisui-danmu-macos-aarch64.tar.gz"
+      sha256 "15e248987d7dbe8965dd669e5b8a5e1e8dcfefc6e8a651aa704c3a6185cb46d3"
     else
-      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.4.5/shisui-danmu-macos-x86_64.tar.gz"
-      sha256 "4065dd05543cd3eb485567069813c08c60a8434d2d031c5a4b80fe278dc13eab"
+      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.5.0/shisui-danmu-macos-x86_64.tar.gz"
+      sha256 "da7b428f504175371fc875bcf9e6e4321e204f4b238e5d273bfbc3990e09087f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.4.5/shisui-danmu-linux-aarch64.tar.gz"
-      sha256 "3c839eedf9fd502c8a77446871d966c45480a1eee5b1eabf5f97f86dc4bde5de"
+      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.5.0/shisui-danmu-linux-aarch64.tar.gz"
+      sha256 "8461f60f96bde8bc734e1e83282094dadb1632f33d51cf172e39581387e66145"
     else
-      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.4.5/shisui-danmu-linux-x86_64.tar.gz"
-      sha256 "759129e4741e1e92bf1df4b79b69eec0bda7a68f4993ffb7bde5d61394ab0223"
+      url "https://github.com/rockythink/shisui-danmu/releases/download/v0.5.0/shisui-danmu-linux-x86_64.tar.gz"
+      sha256 "33c7eca3b4ab8510cbd70224dfa0d07ca974a62f2172933a84d152ca90073020"
     end
   end
 
